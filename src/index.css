@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  body {
+    @apply bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white;
+    font-family: 'Inter', sans-serif;
+    background-attachment: fixed;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply backdrop-blur-lg bg-white/5 border border-amber-500/20 rounded-xl shadow-xl;
+    background: linear-gradient(135deg, rgba(251, 191, 36, 0.1), rgba(0, 0, 0, 0.3));
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-amber-500 to-yellow-600 text-black rounded-lg font-medium hover:from-amber-600 hover:to-yellow-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl;
+    box-shadow: 0 4px 20px rgba(245, 158, 11, 0.4);
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 border border-amber-400/50 text-amber-300 rounded-lg font-medium hover:bg-amber-500/10 hover:border-amber-400 hover:text-amber-200 transition-all duration-300;
+  }
+}
