@@ -2,6 +2,15 @@
 
 A modern, responsive portfolio website showcasing my skills and projects as a Full-Stack Developer.
 
+🌐 **Live Demo**: [https://purity-portfolio-alpha.vercel.app/](https://purity-portfolio-alpha.vercel.app/)
+
+## 🔗 Quick Links
+
+- 📱 **GitHub**: [https://github.com/Purity-Inn](https://github.com/Purity-Inn)
+- 💼 **LinkedIn**: [Purity Kerubo](https://linkedin.com/in/purity-kerubo)
+- 📧 **Email**: [kpurity984@gmail.com](mailto:kpurity984@gmail.com)
+- 📞 **Phone**: +254 748 263 695
+
 ## 🌟 Features
 
 - **Modern Design**: Dark theme with elegant golden accents
